@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 10 200 200">
+  <defs>
+    <clipPath id="shield_271738319">
+      <path d="m 25,25 v 175 l 75,-40 75,40 V 25 Z"/>
+    </clipPath>
+    <radialGradient id="backlight" cx="100%" cy="100%" r="150%">
+      <stop stop-color="#fff" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#fff" stop-opacity=".15" offset=".25"/>
+      <stop stop-color="#000" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <g id="lozengeFaceted" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <polygon points="100 55 130 100 100 145 70 100"/>
+      <g fill="#000" stroke="none">
+        <polygon points="100 100 130 100 100 55" opacity=".2"/>
+        <polygon points="100 100 70 100 100 145" opacity=".2"/>
+        <polygon points="100 100 130 100 100 145" opacity=".3"/>
+      </g>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_271738319)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#ffe066"/>
+    <g class="ordinary" i="0" fill="#d7374a" stroke="none" stroke-width="1">
+      <polygon points="0,0 30,0 100,70 170,0 200,0 200,30 122,109 122,200 78,200 78,109 0,30"/>
+    </g>
+    <g class="charge" i="0" charge="lozengeFaceted" fill="#ffe066" transform="translate(7 7)" stroke="#000">
+      <use xlink:href="#lozengeFaceted" transform="translate(10.5 10.5) scale(0.52)"/>
+    </g>
+    <g class="charge" i="1" charge="lozengeFaceted" fill="#ffe066" transform="translate(-7 7)" stroke="#000">
+      <use xlink:href="#lozengeFaceted" transform="translate(85.5 10.5) scale(0.52)"/>
+    </g>
+    <g class="charge" i="2" charge="lozengeFaceted" fill="#ffe066" transform="translate(0 -7)" stroke="#000">
+      <use xlink:href="#lozengeFaceted" transform="translate(48 80.5) scale(0.52)"/>
+    </g>
+  </g>
+  <path class="grad" d="m 25,25 v 175 l 75,-40 75,40 V 25 Z" fill="url(#backlight)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 10 200 200">
+  <defs>
+    <clipPath id="shield_818220919">
+      <path d="m 25,25 v 175 l 75,-40 75,40 V 25 Z"/>
+    </clipPath>
+    <radialGradient id="backlight" cx="100%" cy="100%" r="150%">
+      <stop stop-color="#fff" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#fff" stop-opacity=".15" offset=".25"/>
+      <stop stop-color="#000" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <g id="lozenge" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <polygon points="100 60 135 100 100 140 65 100"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_818220919)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#522d5b"/>
+    <g class="charge" i="0" charge="lozenge" fill="#ffe066" stroke="#f6d968">
+      <use xlink:href="#lozenge" transform="translate(-12 -12) scale(1.12)"/>
+    </g>
+  </g>
+  <path class="grad" d="m 25,25 v 175 l 75,-40 75,40 V 25 Z" fill="url(#backlight)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 10 200 200">
+  <defs>
+    <clipPath id="shield_66773066">
+      <path d="m 25,25 v 175 l 75,-40 75,40 V 25 Z"/>
+    </clipPath>
+    <radialGradient id="backlight" cx="100%" cy="100%" r="150%">
+      <stop stop-color="#fff" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#fff" stop-opacity=".15" offset=".25"/>
+      <stop stop-color="#000" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <g id="mullet8" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <polygon points="100 60 105.85 85.88 128.28 71.72 114.12 94.15 140 100 114.12 105.85 128.28 128.28 105.85 114.12 100 140 94.15 114.12 71.72 128.28 85.88 105.85 60 100 85.88 94.15 71.72 71.72 94.15 85.88"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_66773066)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#fafafa"/>
+    <g class="ordinary" i="0">
+      <path d="m 25,25 v 175 l 75,-40 75,40 V 25 Z" fill="none" stroke="#333333" stroke-width="5%" transform="translate(15 15) scale(.85)"/>
+    </g>
+    <g class="charge" i="0" charge="mullet8" fill="#333333" transform="translate(0 -3)" stroke="#000">
+      <use xlink:href="#mullet8" transform="translate(20 20) scale(0.8)"/>
+    </g>
+  </g>
+  <path class="grad" d="m 25,25 v 175 l 75,-40 75,40 V 25 Z" fill="url(#backlight)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>
