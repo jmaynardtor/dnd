@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_413437958">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <clipPath id="division_413437958">
+      <path d="m 100,95 c 40,-0.2 100,20 100,20 H 0 c 0,0 60,-19.8 100,-20 z"/>
+      <rect x="0" y="115" width="200" height="85" shape-rendering="crispedges"/>
+    </clipPath>
+    <linearGradient id="luster" x1="0%" y1="100%" x2="95%" y2="10%">
+      <stop stop-color="#000" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#ccc" stop-opacity="0" offset=".8"/>
+      <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+    </linearGradient>
+    <g id="billet" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <polygon points="80 65 120 65 120 135 80 135"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_413437958)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#fafafa"/>
+    <g class="division" clip-path="url(#division_413437958)">
+      <rect x="0" y="0" width="200" height="200" fill="#522d5b"/>
+    </g>
+    <g class="charge" i="0" charge="billet" fill="#522d5b" stroke="none">
+      <use xlink:href="#billet" transform="translate(40 2.5) scale(0.6)"/>
+    </g>
+    <g class="charge" i="1" charge="billet" fill="#fafafa" stroke="none">
+      <use xlink:href="#billet" transform="translate(40 77.5) scale(0.6)"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#luster)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

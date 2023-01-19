@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_139450351">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <linearGradient id="luster" x1="0%" y1="100%" x2="95%" y2="10%">
+      <stop stop-color="#000" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#ccc" stop-opacity="0" offset=".8"/>
+      <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+    </linearGradient>
+    <g id="crossHummetty" stroke-width=".5" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <path d="M90 60h20v30h30v20h-30v30H90v-30H60V90h30z"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_139450351)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#377cd7"/>
+    <g class="charge" i="0" charge="crossHummetty" fill="#fafafa" transform="translate(0 -15)" stroke="#000">
+      <use xlink:href="#crossHummetty" transform="translate(10 10) scale(0.9)"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#luster)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

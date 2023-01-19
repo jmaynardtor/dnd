@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_625251017">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <clipPath id="division_625251017">
+      <rect x="100" y="0" width="100" height="200"/>
+    </clipPath>
+    <linearGradient id="luster" x1="0%" y1="100%" x2="95%" y2="10%">
+      <stop stop-color="#000" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#ccc" stop-opacity="0" offset=".8"/>
+      <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#shield_625251017)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#d7374a"/>
+    <g class="division" clip-path="url(#division_625251017)">
+      <rect x="0" y="0" width="200" height="200" fill="#fafafa"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#luster)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

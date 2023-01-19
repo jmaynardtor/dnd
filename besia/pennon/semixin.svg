@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_979150168">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <linearGradient id="luster" x1="0%" y1="100%" x2="95%" y2="10%">
+      <stop stop-color="#000" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#ccc" stop-opacity="0" offset=".8"/>
+      <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+    </linearGradient>
+    <g id="crossPattee" stroke-width=".5" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <path d="M 77,62 C 88,71 95,82 96,96 82,95 71,88 62,77 v 46 c 9,-11 20,-18 34,-19 -1,14 -8,25 -19,34 h 46 c -11,-9 -18,-20 -19,-34 14,1 25,8 34,19 V 77 c -9,11 -20,18 -34,19 1,-14 8,-25 19,-34 z"/>
+    </g>
+    <pattern id="chequy-gules-argent" width="0.25" height="0.25" viewBox="0 0 50 50" fill="#fafafa">
+      <rect width="50" height="50"/>
+      <rect width="25" height="25" fill="#d7374a"/>
+      <rect x="25" y="25" width="25" height="25" fill="#d7374a"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#shield_979150168)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="url(#chequy-gules-argent)"/>
+    <g class="charge" i="0" charge="crossPattee" fill="#333333" transform="translate(0 -14)" stroke="none">
+      <use xlink:href="#crossPattee" transform="translate(25 25) scale(0.75)"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#luster)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>
