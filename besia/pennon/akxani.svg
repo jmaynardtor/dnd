@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1488" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_686662106">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <linearGradient id="luster" x1="0%" y1="100%" x2="95%" y2="10%">
+      <stop stop-color="#000" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#ccc" stop-opacity="0" offset=".8"/>
+      <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+    </linearGradient>
+    <g id="buckle" stroke-width=".7" source="http://wappenwiki.org" license="https://creativecommons.org/licenses/by-nc-sa/3.0">
+      <path d="M117.2 134.72V65.9c0-1.92-1.53-2.96-3.44-2.96-1.92 0-3.46 1.04-3.46 2.96v68.82c0 1.92 1.54 2.96 3.46 2.96 1.91 0 3.45-1.04 3.45-2.96z"/>
+      <path d="M100.98 134.74c20.01 0 36.24-15.42 36.24-34.44S121 65.85 100.98 65.85c-20.02 0-36.25 15.43-36.25 34.45s16.23 34.44 36.25 34.44zm28.44-34.44c0 14.15-12.26 26.12-28.51 26.12S72.4 114.47 72.4 100.3s12.26-26.12 28.5-26.12 28.52 11.97 28.52 26.12z"/>
+      <path d="M110.75 105.86c-1.66-.4-2.2-1.42-2.25-2.56l-45.02 1.28-4.75-3.67a.76.76 0 010-1.18l4.75-3.67 45.02 1.28c.03-1.16.57-2.2 2.25-2.6l5.9-.76c.6-.07 1.22.24 1.5.78l2.04 3.88a3.8 3.8 0 010 3.29l-2.03 3.88c-.29.54-.9.88-1.52.78l-5.89-.73z"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_686662106)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#ffe066"/>
+    <g class="charge" i="0" charge="buckle" fill="#333333" transform="translate(0 -15)" stroke="#000">
+      <use xlink:href="#buckle" transform="translate(10 10) scale(0.9)"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#luster)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

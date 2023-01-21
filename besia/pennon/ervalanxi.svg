@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1152" height="1374" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_84510936">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <linearGradient id="luster" x1="0%" y1="100%" x2="95%" y2="10%">
+      <stop stop-color="#000" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#ccc" stop-opacity="0" offset=".8"/>
+      <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+    </linearGradient>
+    <g id="crossPotent" stroke-width=".5" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <path d="M83 60v10h12v25H70V83H60v34h10v-12h25v25H83v10h34v-10h-12v-25h25v12h10V83h-10v12h-25V70h12V60z"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_84510936)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#d7374a"/>
+    <g class="ordinary" i="0" fill="#fafafa" stroke="none" stroke-width="1">
+      <rect width="50%" height="50%"/>
+    </g>
+    <g class="charge" i="0" charge="crossPotent" fill="#d7374a" transform="translate(9 5)" stroke="#000">
+      <use xlink:href="#crossPotent" transform="translate(7 2) scale(0.48)"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#luster)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>
